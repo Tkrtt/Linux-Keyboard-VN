@@ -1,4 +1,4 @@
-# Vikeylayout
+## X11-VN
 Telex-like Vietnamese keyboard layout for XKB-X11, with AltGr as the switch key.
 
 
@@ -6,6 +6,7 @@ Telex-like Vietnamese keyboard layout for XKB-X11, with AltGr as the switch key.
 ANSI: QWERTY, Colemak-DH-CAW, Col
 
 ISO: WIP
+
 
 ### How to use:
 Copy to /usr/share/X11/xkb/symbols/vn
