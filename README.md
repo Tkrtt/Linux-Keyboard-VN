@@ -14,13 +14,24 @@ Upper case of accented letters (Ă, Â,...) are available with AltGr + Shift.
 
 Example:
 
-``
-AltGr + a = "â"
-AltGr + q = "ă"
-AltGr(Hold) + w + j = "ự"
-``
+```
+* AltGr + a = "â"
 
-It's the Telex keyboard without the double input to make accented symbols, and with some caveats like:extensive knowledge to work with Wayland, need some time to get familiar with.
+* AltGr + q = "ă"
+
+* AltGr + w + j = "ự"
+```
+
+## Caveats
+
+* Not all accented characters can be turned from normal characters. Like "ă" or "ơ". Those are substituted as follows:
+``````
++ "ă" = "q"
+
++ "ơ" = "p"
+``````
+
+* Currently only support X11 and some window manager like Hyprland on Wayland.
 
 ## Current sublayouts for ANSI/ISO
 ANSI: QWERTY, Colemak-DH-CAW
@@ -37,4 +48,3 @@ Option "XkbLayout" "us,vn"
 
 Option "XkbVariant" "basic,basic"
 ``
-
