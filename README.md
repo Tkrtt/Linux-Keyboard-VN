@@ -1,4 +1,4 @@
-# X11-VN
+# ANOTHER VIETNAMESE KEYBOARD FOR LINUX 
 
 Switching keyboard from English to Vietnamese constantly break your workflow? 
 
@@ -25,13 +25,15 @@ Example:
 ## Caveats
 
 * Not all accented characters can be turned from normal characters. Like "ă" or "ơ". Those are substituted as follows:
-``````
-+ "ă" = "q"
+```
+* "ă" = "q"
 
-+ "ơ" = "p"
-``````
+* "ơ" = "p"
+```
 
 * Currently only support X11 and some window manager like Hyprland on Wayland.
+
+* Updating keyboard layout such as "xmodmap" guarantee breakage. 
 
 ## Current sublayouts for ANSI/ISO
 ANSI: QWERTY, Colemak-DH-CAW
@@ -43,8 +45,8 @@ This will retains the US layout (Default) with the switch key from US layout to 
 
 If you only needed the VN layout, you just have to delete the "us," and "basic," inside /etc/X11/xorg.conf.d/15-keyboard.conf:
 
-``
+```
 Option "XkbLayout" "us,vn" 
 
 Option "XkbVariant" "basic,basic"
-``
+```
