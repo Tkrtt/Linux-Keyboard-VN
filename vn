@@ -15,10 +15,10 @@ xkb_symbols "basic" {
 
     // Row 2
     key <AC01> { [ a, A, acircumflex, Acircumflex ] }; //aa
-    key <AC02> { [ s, S, 0x1000301,   0x1000301   ] }; //sac - '
+    key <AC02> { [ s, S, 0x1000301,   0x1000301   ] }; //sac
     key <AC03> { [ d, D, dstroke,     Dstroke     ] }; //dd
-    key <AC04> { [ f, F, 0x1000300,   0x1000300   ] }; //huyen - `
-    key <AC07> { [ j, J, 0x1000323,   0x1000323   ] }; //nang - .
+    key <AC04> { [ f, F, 0x1000300,   0x1000300   ] }; //huyen
+    key <AC07> { [ j, J, 0x1000323,   0x1000323   ] }; //nang
 
     // Row 3
     key <AD01> { [ q, Q, abreve,      Abreve      ] }; //aw
